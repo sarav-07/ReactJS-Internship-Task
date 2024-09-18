@@ -1,0 +1,15 @@
+.p-checkbox .p-checkbox-box::before,
+.p-checkbox .p-checkbox-box::after {
+  display: none !important;  /* Disable any extra tick rendering */
+}
+
+/* Additional styling to keep it clean */
+.p-checkbox {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.p-checkbox-box {
+  vertical-align: middle;
+}
